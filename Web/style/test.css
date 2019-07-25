@@ -1,0 +1,95 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  font-family: 'Dosis', sans-serif;
+}
+
+header a{
+  text-decoration: none;
+}
+nav {
+  width: 100%;
+  background-color: #eb4d4b;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #dff9fb;
+}
+
+nav a{
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  color: #DAA520;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+nav a:hover {
+  background-color: #D3D3D3;
+}
+
+nav a.active {
+  float: right;
+}
+
+div.main {
+  width: 75%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #FFFFFF;
+  margin-left: 12.5%;
+  padding: 10px;
+}
+
+div.grid {
+  display: grid;
+  align-content: space-evenly;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+  width: 80%;
+  margin-left: 10%;
+  grid-gap: 25px;
+  margin-bottom: 5%;
+}
+div.case {
+  border: solid 2px black;
+}
+div.case a{
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+div.searchbar{
+  width:auto;
+  height:auto;
+}
+
+img.miniature {
+  transition: transform 0.5s;
+}
+
+img.miniature:hover {
+  transform: scale(1.5);
+}
+
+div.real {
+  width: 100%;
+  text-align: center;
+}
+
+div.real img {
+    border: solid 2px black;
+}
+
+div.desc {
+  border: solid 2px black;
+}
