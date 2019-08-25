@@ -1,8 +1,11 @@
 # WebGalerie
 Using HTML, PHP, SQL and CSS
 
-# How to use WebGalerie
-
+# Features
+- Account System
+- Self Uploading System's of images in a folder
+- Searching Pictures
+- Comment System
 
 # About the repositorie
 - **Web**: Folder containing the web site
