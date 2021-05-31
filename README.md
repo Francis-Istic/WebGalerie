@@ -1,5 +1,7 @@
 # WebGalerie
-Using HTML, PHP, SQL and CSS
+Project for "Programmation WEB"  
+L2 ISTIC  
+Using HTML, PHP, SQL and CSS  
 
 # Features
 - Account System
